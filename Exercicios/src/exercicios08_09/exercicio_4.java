@@ -4,7 +4,6 @@ import java.util.Scanner;
  * 4. Escreva  um sistema que leia três 
  * números inteiros e positivos (A, B, C)
  *  e calcule a seguinte expressão: 
- * 
  */
 public class exercicio_4 {
 
