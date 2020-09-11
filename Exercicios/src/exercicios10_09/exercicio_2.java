@@ -6,23 +6,23 @@ package exercicios10_09;
 public class exercicio_2 {
 	public static void main(String[] args) 
 	{
-		int numero, par=0, impar=0;
+		int numero, pares=0, impares=0;
 		for(numero = 1; numero <= 10; numero ++)
 		{
 		 	if(numero%2==0) 
 		{
 		 		
 		 		System.out.println(numero);
-		 		par++;
+		 		pares++;
 		 	}
 		 	else
 		 	{
 		 		System.out.println(numero);
-		 		impar++;
+		 		impares++;
 		 	}
 		 		
 		}
-		System.out.printf("\nExistem %d números pares", par);
-		System.out.printf("\nExistem %d números impares", impar);
+		System.out.printf("\nExistem %d números pares", pares);
+		System.out.printf("\nExistem %d números impares", impares);
 }
 }
