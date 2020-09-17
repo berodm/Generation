@@ -12,8 +12,9 @@ public class Funcionario_Objeto
 	
 	public void mostraG()
 	{
-		if(sexoFunc == 'M') {
-			System.out.printf("\nO funcionario %s , tem %d anos.", nomeFunc, idadeFunc);
+		if(sexoFunc == 'M') 
+		{
+			System.out.printf("\nO funcionario %s, tem %d anos.", nomeFunc, idadeFunc);
 		}
 		else if(sexoFunc == 'F') 
 		{
@@ -23,9 +24,11 @@ public class Funcionario_Objeto
 	
 
 	
-	public void somaValor() {
+	public void somaValor() 
+	{
 		double soma = (horasTrab*salHora);
-				System.out.printf("\nO valor a receber nesse dia é: R$ %.2f", soma);
+		System.out.printf("\nHoras trabalhadas: %.0f ", horasTrab);
+		System.out.printf("\nO valor a receber nesse dia é: R$ %.2f", soma);
 		
 	}
 	}
