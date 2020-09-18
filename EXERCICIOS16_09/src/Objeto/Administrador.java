@@ -4,7 +4,7 @@ public class Administrador extends Pessoa{
 		
 		private double valViagens;
 		private double valEstadias;
-		private double ajudaCusto=valEstadias+valViagens;
+		private double ajudaCusto = valEstadias+valViagens;
 		
 		public Administrador(String nome, double valViagens, double valEstadias, double ajudaCusto) {
 			super(nome);
